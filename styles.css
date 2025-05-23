@@ -20,7 +20,95 @@ body {
 }
 
 .link-container {
+    color: #E5E7EB;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     gap: 16px;
+}
+
+.intro-container {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.intro-pic {
+    height: 150px;
+    width: 600px;
+}
+
+.card-container {
+    display: flex;
+}
+
+.random-info {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card > img {
+    height: 100px;
+    width: 100px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-author {
+    font-weight: bold;
+}
+
+.call-to-action-container {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.footer > p {
+    text-align: center;
 }
